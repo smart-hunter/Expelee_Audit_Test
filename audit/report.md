@@ -447,12 +447,12 @@ b6f7f681  =>  setMaxTransactionAmounts(uint256,uint256)
 ## Manual Review
 
 | Findings                | Severity    | Found |
-|-------------------------|-------------|-------|
-| High Risk               | High        |       |
-| Medium Risk             | Medium      |       |
-| Low Risk                | Low         |       |
-| Suggestion & Discussion | Information |       |
-| Gas optimization        | Gas Opt     |       |
+|-------------------------|-------------|:-----:|
+| High Risk               | High        |   2   |
+| Medium Risk             | Medium      |   2   |
+| Low Risk                | Low         |   3   |
+| Suggestion & Discussion | Information |   4   |
+| Gas optimization        | Gas Opt     |   3   |
 
 
 ### High Risk Finding
