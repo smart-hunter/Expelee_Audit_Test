@@ -96,28 +96,23 @@ Our analysis includes both automatic tests and manual code analysis for the foll
 
 ## Vulnerability Checks
 
-|                             Type                             | Result |
-|:------------------------------------------------------------:|:------:|
-|                         Design Logic                         |        |
-|                      Compiler warnings                       |        |
-|                   Private user data leaks                    |        |
-|                    Timestamps dependence                     |        |
-|                Integer overflow and underflow                |        |
-| Race conditions & reentrancy. Cross-function race conditions |        |
-|               Possible delays in data delivery               |        |
-|                         Oracle calls                         |        |
-|                        Front Running                         |        |
-|                       DoS with revert                        |        |
-|                   DoS with block gas limit                   |        |
-|                Methods execution permissions                 |        |
-|                        Economy model                         |        |
-|           Impact of the exchange rate on the logic           |        |
-|                     Malicious event log                      |        |
-|                   Scoping and declarations                   |        |
-|                Uninitialized storage pointers                |        |
-|                     Arithmatic accuracy                      |        |
-|                Cross-function race conditions                |        |
-|                     Safe zepplin module                      |        |
+|                             Type                             |   Result   |
+|:------------------------------------------------------------:|:----------:|
+|                         Design Logic                         | Not Passed |
+|                      Compiler warnings                       |   Passed   |
+|                   Private user data leaks                    |   Passed   |
+|                    Timestamps dependence                     |   Passed   |
+|                Integer overflow and underflow                |   Passed   |
+| Race conditions & reentrancy. Cross-function race conditions | Not Passed |
+|               Possible delays in data delivery               |   Passed   |
+|                         Oracle calls                         |   Passed   |
+|                        Front Running                         |   Passed   |
+|                Methods execution permissions                 |   Passed   |
+|                        Economy model                         |   Passed   |
+|                   Scoping and declarations                   |   Passed   |
+|                Uninitialized storage pointers                |   Passed   |
+|                     Arithmatic accuracy                      | Not Passed |
+
 
 ## Risk Classification
 
@@ -145,8 +140,7 @@ Issues on this level are minor details and warning that can remain unfixed.
 
 ## Testnet versions
 
-============================
-
+https://testnet.bscscan.com/address/0x1506697B00851eFCeaD66945f6d3988b068eEfaF
 
 ## Function Details
 
