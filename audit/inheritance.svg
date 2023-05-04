@@ -1,0 +1,127 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="939pt" height="260pt" viewBox="0.00 0.00 939.47 260.00">
+<g id="graph0" class="graph" transform="translate(4,256) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-256 935.47,-256 935.47,4 -4,4" style=""/>
+<!-- IUniswapV2Factory -->
+<g id="node1" class="node" pointer-events="visible" data-name="IUniswapV2Factory">
+
+<ellipse fill="none" stroke="black" cx="89.89" cy="-234" rx="89.77" ry="18" style=""/>
+<text text-anchor="middle" x="89.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">IUniswapV2Factory</text>
+</g>
+<!-- IUniswapV2Pair -->
+<g id="node2" class="node" pointer-events="visible" data-name="IUniswapV2Pair">
+
+<ellipse fill="none" stroke="black" cx="273.89" cy="-234" rx="75.89" ry="18" style=""/>
+<text text-anchor="middle" x="273.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">IUniswapV2Pair</text>
+</g>
+<!-- IUniswapV2Router01 -->
+<g id="node3" class="node" pointer-events="visible" data-name="IUniswapV2Router01">
+
+<ellipse fill="none" stroke="black" cx="463.89" cy="-162" rx="96.15" ry="18" style=""/>
+<text text-anchor="middle" x="463.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">IUniswapV2Router01</text>
+</g>
+<!-- IUniswapV2Router02 -->
+<g id="node4" class="node" pointer-events="visible" data-name="IUniswapV2Router02">
+
+<ellipse fill="none" stroke="black" cx="463.89" cy="-234" rx="96.15" ry="18" style=""/>
+<text text-anchor="middle" x="463.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">IUniswapV2Router02</text>
+</g>
+<!-- IUniswapV2Router02&#45;&gt;IUniswapV2Router01 -->
+<g id="edge1" class="edge" data-name="IUniswapV2Router02-&gt;IUniswapV2Router01">
+
+<path fill="none" stroke="black" d="M463.89,-215.7C463.89,-208.41 463.89,-199.73 463.89,-191.54" style=""/>
+<polygon fill="black" stroke="black" points="467.39,-191.62 463.89,-181.62 460.39,-191.62 467.39,-191.62" style=""/>
+</g>
+<!-- IERC20 -->
+<g id="node5" class="node" pointer-events="visible" data-name="IERC20">
+
+<ellipse fill="none" stroke="black" cx="770.89" cy="-18" rx="42.88" ry="18" style=""/>
+<text text-anchor="middle" x="770.89" y="-13.8" font-family="Times,serif" font-size="14.00" style="">IERC20</text>
+</g>
+<!-- IERC20Metadata -->
+<g id="node6" class="node" pointer-events="visible" data-name="IERC20Metadata">
+
+<ellipse fill="none" stroke="black" cx="824.89" cy="-90" rx="78.73" ry="18" style=""/>
+<text text-anchor="middle" x="824.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">IERC20Metadata</text>
+</g>
+<!-- IERC20Metadata&#45;&gt;IERC20 -->
+<g id="edge2" class="edge" data-name="IERC20Metadata-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M811.81,-72.05C805.35,-63.68 797.43,-53.4 790.28,-44.13" style=""/>
+<polygon fill="black" stroke="black" points="793.27,-42.29 784.39,-36.51 787.73,-46.56 793.27,-42.29" style=""/>
+</g>
+<!-- Address -->
+<g id="node7" class="node" pointer-events="visible" data-name="Address">
+
+<ellipse fill="none" stroke="black" cx="773.89" cy="-234" rx="42.87" ry="18" style=""/>
+<text text-anchor="middle" x="773.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">Address</text>
+</g>
+<!-- Context -->
+<g id="node8" class="node" pointer-events="visible" data-name="Context">
+
+<ellipse fill="none" stroke="black" cx="639.89" cy="-90" rx="41.73" ry="18" style=""/>
+<text text-anchor="middle" x="639.89" y="-85.8" font-family="Times,serif" font-size="14.00" style="">Context</text>
+</g>
+<!-- Ownable -->
+<g id="node9" class="node" pointer-events="visible" data-name="Ownable">
+
+<ellipse fill="none" stroke="black" cx="623.89" cy="-162" rx="45.79" ry="18" style=""/>
+<text text-anchor="middle" x="623.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">Ownable</text>
+</g>
+<!-- Ownable&#45;&gt;Context -->
+<g id="edge3" class="edge" data-name="Ownable-&gt;Context">
+
+<path fill="none" stroke="black" d="M627.84,-143.7C629.53,-136.32 631.54,-127.52 633.43,-119.25" style=""/>
+<polygon fill="black" stroke="black" points="636.82,-120.11 635.64,-109.58 630,-118.55 636.82,-120.11" style=""/>
+</g>
+<!-- SafeMath -->
+<g id="node10" class="node" pointer-events="visible" data-name="SafeMath">
+
+<ellipse fill="none" stroke="black" cx="882.89" cy="-234" rx="48.66" ry="18" style=""/>
+<text text-anchor="middle" x="882.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">SafeMath</text>
+</g>
+<!-- ERC20 -->
+<g id="node11" class="node" pointer-events="visible" data-name="ERC20">
+
+<ellipse fill="none" stroke="black" cx="726.89" cy="-162" rx="39.45" ry="18" style=""/>
+<text text-anchor="middle" x="726.89" y="-157.8" font-family="Times,serif" font-size="14.00" style="">ERC20</text>
+</g>
+<!-- ERC20&#45;&gt;IERC20 -->
+<g id="edge5" class="edge" data-name="ERC20-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M726.53,-143.75C726.67,-125.43 728.41,-95.88 736.89,-72 740.3,-62.37 745.76,-52.71 751.3,-44.33" style=""/>
+<polygon fill="black" stroke="black" points="754,-46.58 756.87,-36.39 748.26,-42.56 754,-46.58" style=""/>
+</g>
+<!-- ERC20&#45;&gt;IERC20Metadata -->
+<g id="edge6" class="edge" data-name="ERC20-&gt;IERC20Metadata">
+
+<path fill="none" stroke="black" d="M747.19,-146.5C760.38,-137.08 777.84,-124.6 792.87,-113.87" style=""/>
+<polygon fill="black" stroke="black" points="794.52,-116.99 800.63,-108.33 790.46,-111.29 794.52,-116.99" style=""/>
+</g>
+<!-- ERC20&#45;&gt;Context -->
+<g id="edge4" class="edge" data-name="ERC20-&gt;Context">
+
+<path fill="none" stroke="black" d="M708.01,-145.81C696.23,-136.34 680.87,-123.97 667.71,-113.39" style=""/>
+<polygon fill="black" stroke="black" points="670.19,-110.89 660.21,-107.35 665.8,-116.35 670.19,-110.89" style=""/>
+</g>
+<!-- EMPR -->
+<g id="node12" class="node" pointer-events="visible" data-name="EMPR">
+
+<ellipse fill="none" stroke="black" cx="675.89" cy="-234" rx="37.17" ry="18" style=""/>
+<text text-anchor="middle" x="675.89" y="-229.8" font-family="Times,serif" font-size="14.00" style="">EMPR</text>
+</g>
+<!-- EMPR&#45;&gt;Ownable -->
+<g id="edge8" class="edge" data-name="EMPR-&gt;Ownable">
+
+<path fill="none" stroke="black" d="M663.83,-216.76C657.61,-208.4 649.9,-198.02 642.91,-188.61" style=""/>
+<polygon fill="black" stroke="black" points="645.92,-186.79 637.14,-180.85 640.3,-190.96 645.92,-186.79" style=""/>
+</g>
+<!-- EMPR&#45;&gt;ERC20 -->
+<g id="edge7" class="edge" data-name="EMPR-&gt;ERC20">
+
+<path fill="none" stroke="black" d="M687.71,-216.76C693.89,-208.28 701.59,-197.71 708.53,-188.2" style=""/>
+<polygon fill="black" stroke="black" points="711.17,-190.51 714.23,-180.37 705.51,-186.39 711.17,-190.51" style=""/>
+</g>
+</g>
+</svg>
