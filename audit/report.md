@@ -10,7 +10,7 @@ The Expelee team has performed a line-by-line manual analysis and automated revi
 |    Audit Date    | 4 May 2023 |
 
 
-## Contract Summery
+## Contract Summary
 
 The EMPR contract is a smart contract written in Solidity programming language. It is an ERC20 token that inherits from the ERC20 and Ownable contracts. The contract also uses the IUniswapV2Router02 interface to interact with the Uniswap decentralized exchange.
 
